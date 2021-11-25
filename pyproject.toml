@@ -29,11 +29,11 @@ black = 1
 pyupgrade = 1
 
 [tool.nbqa.files]
-isort = "notebooks/*"
-black = "notebooks/*"
-flake8 = "notebooks/*"
-pyupgrade = "notebooks/*"
-mypy = "notebooks/*"
+isort = "^notebooks/"
+black = "^notebooks/"
+flake8 = "^notebooks/"
+pyupgrade = "^notebooks/"
+mypy = "^notebooks/"
 
 [tool.nbqa.addopts]
 pyupgrade = ["--py38-plus"]
