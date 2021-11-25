@@ -1,11 +1,9 @@
-files: ^src/
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.4.0
     hooks:
       - id: check-added-large-files
         args: [--maxkb=1024]
-        files: "\\.(py)$"
   - repo: https://github.com/pycqa/isort
     rev: 5.7.0
     hooks:
